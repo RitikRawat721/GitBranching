@@ -30,11 +30,12 @@
 ## To make a new Branch
 *  Type "git checkout -b [name of the branch]" (brackets excluded)
 *  ex: git checkout -b feature-readme-gitBranching
+*  Switched to a new branch 'feature-readme-gitBranching' (It will look something like this)
 
 ## How to switch b/w branches
 *  Type "git checkout [master/feature-readme-gitBranching]" (brackets excluded)
 *  In square Brackets u need to put the name of the branch
+*  Switched to branch 'master' (It will look something like this)
 
-### Feature Branch addition (this will be saved in feature branch)
-
-* You can check this part in feature branch
+## this is a feature branch addition
+* check the file
