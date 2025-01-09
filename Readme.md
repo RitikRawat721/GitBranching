@@ -23,4 +23,14 @@
 ## HOTFIX
 *  This branch is made and used for fixing the bugs in the projects
 
+### To check branches 
+*   Type "git branch"
+*   This will show you how many branches are there
 
+## To make a new Branch
+*  Type "git checkout -b [name of the branch]" (brackets excluded)
+*  ex: git checkout -b feature-readme-gitBranching
+
+## How to switch b/w branches
+*  Type "git checkout [master/feature-readme-gitBranching]" (brackets excluded)
+*  In square Brackets u need to put the name of the branch
