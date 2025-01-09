@@ -34,3 +34,7 @@
 ## How to switch b/w branches
 *  Type "git checkout [master/feature-readme-gitBranching]" (brackets excluded)
 *  In square Brackets u need to put the name of the branch
+
+### Feature Branch addition (this will be saved in feature branch)
+
+* You can check this part in feature branch
