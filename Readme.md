@@ -37,5 +37,6 @@
 *  In square Brackets u need to put the name of the branch
 *  Switched to branch 'master' (It will look something like this)
 
-## this is a feature branch addition
-* check the file
+## New Topic
+
+   Information
