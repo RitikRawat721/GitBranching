@@ -117,5 +117,3 @@
 * EX: When You load save in some game if you load to a save which was saved before you progressed more all the progress will be gone because you went back in time in the game 
 
 
-# DELete
-* delete 2 
