@@ -44,3 +44,33 @@
 
    Information
 
+* The above 2 lines are for practice purpose
+
+## How to make a pull request and merge the feature branch to the Master/Main branch
+*  Save everthing in the f-branch and commit the branch
+*  After commit push the branch to the remote repository
+*  ex: "git push -u origin [name of the feature branch]"
+       "git push -u origin feature-readme-gitBranching"
+*  Whenever you push you will get a link for pr(Pull Request)
+###  You can do manually from the gitHub page 
+*    After you push you will see a notification
+*    That a new branch is added with a button 
+*    Compare and Merge
+*    if you have some issue you can resolve right there
+*    Once resolved You can merge
+*    additional INFO: You can also add comments in the lines which are changed/modified
+
+### After merging in the github page
+*   You will see the that the files have been merged in the code
+*   you will be in the master branch
+*   These changes will not show in the local device
+*   Go to the terminal and go to the master branch
+*   To get the changes in the local device
+*   Type "git pull" - If you have upstreamed already OR
+*   Type "git pull origin master"
+
+### Deleting a branch
+*   Type "git branch -d [name of the branch]"
+*   ex" "git branch -d feature-readme-gitBranching"
+*   You will see something like this in the terminal
+*   "Deleted branch feature-readme-gitBranching (was 391b6a7)."
