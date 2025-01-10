@@ -74,3 +74,23 @@
 *   ex" "git branch -d feature-readme-gitBranching"
 *   You will see something like this in the terminal
 *   "Deleted branch feature-readme-gitBranching (was 391b6a7)."
+
+## Branching Conflicts
+*  Occurs when multiple members are creating feature branches and merging the master(Your branch[author])
+*  To resolve this problem you have to manually resolve this 
+
+## KEY POINTS
+* the master branch file should be pushed to the remote repo before creating a feature branch
+* always check your branch using "git status" 
+* always add and commit the file 
+
+
+### If you made a branch and you need to check if the merging is good or not 
+* switch to the feature branch and TYPE "git merge master"
+* in the code editor you will see that the lines added/removed
+* If there is any conflict fix it there and then Stage and commit
+* then you can go to the github to merge the files as normal
+* You can use "git commit -am ["Your message"]" after the file is merged locally after resolving the conflict
+* [git commit -a automatically stage all tracked, modified files before the commit]
+* this allows to stage and commit at the same time [but not on new files]
+
