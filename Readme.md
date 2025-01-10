@@ -36,6 +36,11 @@
 *  Type "git checkout [master/feature-readme-gitBranching]" (brackets excluded)
 *  In square Brackets u need to put the name of the branch
 *  Switched to branch 'master' (It will look something like this)
-
+ 
 ## to check the difference b/n the feature and master
 *  type "git diff [name of the feature branch]"
+
+## New Topic
+
+   Information
+
