@@ -115,3 +115,7 @@
 *   hard reset will delete the whole index until the commit you wanted to reset to
 *   In simple words the commit untill which you do the hard reset to all the commits before that as well as the things you added or removed will be gone
 * EX: When You load save in some game if you load to a save which was saved before you progressed more all the progress will be gone because you went back in time in the game 
+
+
+# DELete
+
