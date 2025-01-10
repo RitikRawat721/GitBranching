@@ -94,3 +94,9 @@
 * [git commit -a automatically stage all tracked, modified files before the commit]
 * this allows to stage and commit at the same time [but not on new files]
 
+# UNDOING Git
+## If you do some mistake in git Ex: added or commited by mistake
+
+* For ex: You staged some changes
+* To undo you can TYPE "git reset" which will unstage all OR
+* "git reset [File Name]" which resets the staged things in the particular file
