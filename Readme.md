@@ -106,7 +106,7 @@
 *  if 1 the last commit will reset, if 2 the last 2 commit will reset and so on [Commits history included]
 *  OR
 *  You can TYPE: "git log" | This will give you all the logs of commits done
-*  In the log each commit has a hash value
+*  In the log each commit has a hash value 
 *  EX: commit 77bcd817535a02ce0e3d0e62a1877d2877c6018f
 *  Next is you TYPE "git reset 77bcd817535a02ce0e3d0e62a1877d2877c6018f" this will uncommit and unstage that commit [Commits history gets removed also]
 
@@ -116,4 +116,6 @@
 *   In simple words the commit untill which you do the hard reset to all the commits before that as well as the things you added or removed will be gone
 * EX: When You load save in some game if you load to a save which was saved before you progressed more all the progress will be gone because you went back in time in the game [Commits history included]
 
+# Forking
+* Forking is copying a Repository of others projects in your github account
 
