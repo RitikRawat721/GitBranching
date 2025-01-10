@@ -100,3 +100,18 @@
 * For ex: You staged some changes
 * To undo you can TYPE "git reset" which will unstage all OR
 * "git reset [File Name]" which resets the staged things in the particular file
+
+## For commit
+*  You can TYPE "git reset HEAD~[Number]" | Number: number of commits you want to go back to
+*  if 1 the last commit will reset, if 2 the last 2 commit will reset and so on
+*  OR
+*  You can TYPE: "git log" | This will give you all the logs of commits done
+*  In the log each commit has a hash value
+*  EX: commit 77bcd817535a02ce0e3d0e62a1877d2877c6018f
+*  Next is you TYPE "git reset 77bcd817535a02ce0e3d0e62a1877d2877c6018f" this will uncommit and unstage that commit
+
+### Hard Reset 
+*   You can perform hard reset by typing "git reset --hard 77bcd817535a02ce0e3d0e62a1877d2877c6018f" the hash no. is just for example
+*   hard reset will delete the whole index until the commit you wanted to reset to
+*   In simple words the commit untill which you do the hard reset to all the commits before that as well as the things you added or removed will be gone
+* EX: When You load save in some game if you load to a save which was saved before you progressed more all the progress will be gone because you went back in time in the game 
